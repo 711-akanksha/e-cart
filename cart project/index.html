@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <title > home cart</title>
+    <link rel="stylesheet" href="n.css">
+</head>
+<style>
+
+</style>
+<body>
+    <section>
+<div class="nav-bar">
+        <ul class ="list ">
+            <li class="link-item">
+                <a href="page1.html" class="link active">Estore</a>
+            </li>
+            <li  class="link-item"id="menu">
+                <div id ="cart-amount">0</div>
+                <a href="cart1.html" class="link lcart">Cart</a>
+            </li>
+  
+        </ul>
+</div>
+<div class="shop" id="Shop">
+    
+   <!-- display  product available  -->
+ </div>
+
+<div class="side-bar"></div>
+     <div class="cart-pg"> </div>
+    <h2 id="count"></h2>
+</section>
+    <!-- <script>
+</section>
+
+
+
+
+
+        let add_to_cart=document.getElementsByClassName('btn-primary')
+        let count=0
+        console.log("arr",add_to_cart.length)
+        for(let i=0;i<add_to_cart.length;i++){
+            add_to_cart[i].addEventListener('click',addtocart)
+            count=count+1;
+
+        }
+        function addtocart(event){
+            let btn = event.target
+            alert('clicked button')
+             console.log(count)
+             document.getElementById('count').innerHTML=count
+             let btn_parent = btn.parentElement
+             let btn_Gparent = btn.parentElement
+             let itemName= btn_parent.children[0]
+             let itemPrice= btn_parent.children[1]
+             let image=btn.Gparent.children[0].src
+             let itemContainer=document.createElement('tr')
+             
+
+             
+        } 
+    </script>-->
+</body>
+<script src="data.js"></script>
+<script src="main.js"></script>
+</html> 
